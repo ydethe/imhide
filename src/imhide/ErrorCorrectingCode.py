@@ -1,10 +1,11 @@
-import typing as T
 from reedsolo import RSCodec
 
 
 class ErrorCorrectingCode(object):
     def __init__(self):
-        self.__rsc = RSCodec(10)  # 10 ecc symbols
+        self.__rsc = RSCodec(
+            nsym=10, nsize=255, fcr=0, prim=0x11D, generator=2, c_exp=8, single_gen=True
+        )
 
     def encode(self, data: bytes) -> bytes:
         enc = self.__rsc.encode(data)

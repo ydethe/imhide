@@ -23,9 +23,12 @@ dependencies = [
     "flask-bootstrap~=3.3",
     "pillow~=10.4",
     "pydantic-settings~=2.5",
-    "reedsolo>=1.7.0",
+    "scikit-commpy>=0.8.0",
+    "numpy>=2.2.6",
+    "pyturbocode>=0.1.13",
+    "cryptography>=46.0.5",
 ]
-requires-python = ">=3.10"
+requires-python = ">=3.12"
 readme = "README.md"
 
 [project.urls]

@@ -7,7 +7,11 @@ def test_ecc():
 
     msg = b"hello world"
     enc = ecc.encode(msg)
+    enc[5] = ord("w")
+
     decoded_msg = ecc.decode(enc)
+    print(decoded_msg)
+
     assert decoded_msg == msg
 
     print(len(msg), len(enc))

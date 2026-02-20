@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
 
+- Added endianness in size packing ([01d9e79]() by Yann de The).
 - Added turbocode and crypto ([58cd28c]() by Yann de The).
 
 <!-- insertion marker -->

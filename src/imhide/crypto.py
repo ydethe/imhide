@@ -1,7 +1,7 @@
 from cryptography.fernet import Fernet
 
 
-def generate_key():
+def generate_key() -> bytes:
     key = Fernet.generate_key()
     return key
 

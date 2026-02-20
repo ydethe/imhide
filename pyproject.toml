@@ -25,10 +25,11 @@ dependencies = [
     "pydantic-settings~=2.5",
     "scikit-commpy>=0.8.0",
     "numpy>=2.2.6",
-    "pyturbocode>=0.1.13",
     "cryptography>=46.0.5",
+    "pypccc>=0.1.0",
+    "scipy>=1.15.3",
 ]
-requires-python = ">=3.12"
+requires-python = ">=3.11,<3.13"
 readme = "README.md"
 
 [project.urls]

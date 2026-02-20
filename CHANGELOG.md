@@ -10,4 +10,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 <small>[Compare with latest]()</small>
 
+### Added
+
+- Added turbocode and crypto ([58cd28c]() by Yann de The).
+
 <!-- insertion marker -->

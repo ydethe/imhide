@@ -24,4 +24,5 @@ htmldoc/
 .registry
 .claude
 *.pem
-output.jpg
+*.jpg
+*.png
